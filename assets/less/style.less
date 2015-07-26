@@ -1,0 +1,339 @@
+@import "helpful.less";
+
+body {
+  background: #fff;
+  font-size: 26px;
+  color: #0c0c0c;
+  line-height: 42px;
+  font-weight: 300;
+  font-family: 'Lato', sans-serif;
+
+  @media (max-height: 705px) and (min-height: 653px) {
+    font-size: 23px;
+    line-height: 30px;
+  }
+}
+
+a {
+  &:hover, &:visited, &:focus {
+    text-decoration: none;
+  }
+}
+
+.logo {
+
+  @media (max-width: @mobile-width) {
+    display: inline-block;
+    margin: 0 auto;
+  }
+
+  img {
+    max-width: 100%;
+
+    @media (max-width: @mobile-width) {
+      width: 40%;
+    }
+  }
+}
+
+.slider-container {
+
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+
+  @media (max-height: 705px) and (min-height: 653px) {
+    height: 410px;
+  }
+
+  .slider-content {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    padding-top: 55px;
+
+    @media (max-width: @mobile-width) {
+      padding-top: 5px;
+      text-align: center;
+    }
+  }
+
+  .slider {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    .slider-item {
+      border-bottom: 2px solid #f9000e;
+      background: url(../img/slider.jpg) top center no-repeat;
+      background-size: cover;
+      min-height: 70vh;
+
+      img {
+        max-width: 100%;
+      }
+
+      .slider-content {
+        z-index: 3;
+        bottom: 25px;
+        padding: 0;
+
+        @media (max-width: @mobile-width) {
+          bottom: 0;
+        }
+
+        .container {
+          position: relative;
+        }
+
+        .slide-title {
+          font-size: 84px;
+          font-weight: 900;
+          color: #fff;
+          text-align: center;
+          display: block;
+          line-height: 90px;
+          margin-bottom: 10px;
+          text-transform: uppercase;
+
+          @media (max-width: @mobile-width) {
+            font-size: 20px;
+            line-height: 24px;
+          }
+
+          @media (max-height: 705px) and (min-height: 653px) {
+            font-size: 52px;
+            line-height: 56px;
+            margin-bottom: 0;
+          }
+        }
+
+        .slide-text {
+          font-size: 30px;
+          font-weight: 300;
+          color: #fff;
+          text-align: center;
+          line-height: 42px;
+
+          @media (max-width: @mobile-width) {
+            font-size: 15px;
+            line-height: 17px;
+          }
+
+          @media (max-height: 705px) and (min-height: 653px) {
+            font-size: 27px;
+            line-height: 32px;
+          }
+
+          span {
+            position: relative;
+            display: inline-block;
+
+            &:before, &:after {
+              content: '';
+              position: absolute;
+              display: block;
+              width: 28px;
+              height: 1px;
+              background: #f9000e;
+              top: 18px;
+            }
+
+            &:before {
+              left: -50px;
+            }
+
+            &:after {
+              right: -50px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.payments-container {
+  overflow: hidden;
+  list-style-type: none;
+  margin-top: 25px;
+  padding: 0;
+
+  .payment-item {
+    margin-bottom: 35px;
+
+    a {
+
+      display: block;
+      height: 135px;
+      color: #fefefe;
+      font-size: 38px;
+      line-height: 120px;
+      padding-left: 18%;
+      font-weight: 300;
+      .transition(all .2s linear);
+
+      @media (max-width: 380px) {
+        line-height: 50px;
+        padding-left: 20%;
+        padding-top: 10px;
+      }
+
+      @media (max-width: 320px) {
+        padding-left: 25%;
+      }
+
+      @media (min-width: @mobile-width) and (max-width: @tablet-width) {
+        padding-left: 25%;
+        line-height: 42px;
+        padding-top: 26px;
+        font-size: 28px;
+      }
+
+      strong {
+        font-size: 35px;
+        font-weight: 900;
+        text-transform: uppercase;
+
+        @media (max-width: 380px) {
+          display: block;
+        }
+
+        @media (min-width: @mobile-width) and (max-width: @tablet-width) {
+          display: block;
+          font-size: 27px;
+        }
+
+        big {
+          font-size: 53px;
+
+          @media (min-width: @mobile-width) and (max-width: @tablet-width) {
+            font-size: 45px;
+          }
+        }
+      }
+
+      &.custom-amount {
+        line-height: 40px;
+        padding-top: 25px;
+
+        strong {
+          @media (max-width: 380px) {
+            font-size: 28px;
+          }
+
+          @media (max-width: 320px) {
+            font-size: 25px;
+          }
+
+          @media (min-width: @mobile-width) and (max-width: @tablet-width) {
+            font-size: 23px;
+          }
+        }
+      }
+
+      &.red {
+        background-color: #f9000e;
+
+        &:hover {
+          background-color: darken(#f9000e, 10%);
+        }
+      }
+
+      &.blue {
+        background-color: #24458e;
+
+        &:hover {
+          background-color: darken(#24458e, 10%);
+        }
+      }
+
+      &:before {
+        content: '';
+        background: url(../img/button-arrow.png) center no-repeat;
+        width: 47px;
+        height: 100%;
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 0;
+      }
+    }
+  }
+}
+
+.promises-container {
+  background: #eee;
+  padding-bottom: 50px;
+
+  .promise-title {
+    color: #f9000e;
+    font-size: 38px;
+    line-height: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+
+    @media (max-width: 480px) {
+      font-size: 20px;
+      line-height: 27px;
+    }
+  }
+
+  .promises-list {
+    list-style-type: none;
+    margin-top: 60px;
+    margin-bottom: 55px;
+    text-align: center;
+    padding: 0;
+
+    .promise-item {
+
+      @media (max-width: 768px) {
+        margin-bottom: 60px;
+      }
+
+      .promise-img {
+        display: block;
+        max-width: 100%;
+        margin: 0 auto 45px;
+
+        @media (max-width: 768px) {
+          margin-bottom: 15px;
+        }
+      }
+
+      .promise-text {
+        font-size: 13px;
+        line-height: 20px;
+        font-weight: bold;
+        text-align: center;
+        color: #676767;
+      }
+    }
+  }
+}
+
+.footer {
+  color: #24458e;
+  font-size: 59px;
+  height: 90px;
+  text-align: center;
+  line-height: 90px;
+  font-weight: 900;
+
+  strong {
+    font-weight: 900;
+    color: #f9000e;
+    font-size: 86px;
+  }
+}
+
+.googleadservices {
+  width: 1px;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
