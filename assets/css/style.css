@@ -109,6 +109,7 @@ a:hover, a:visited, a:focus {
 	text-align: center;
 	line-height: 42px
 }
+
 @media(max-width:768px) {
 	.slider-container .slider .slider-item .slider-content .slide-text {
 		font-size: 15px;
@@ -251,6 +252,11 @@ a:hover, a:visited, a:focus {
 	background: #eee;
 	padding-bottom: 50px
 }
+
+.guide-container {
+	background: #eee;
+	padding-bottom: 50px
+}
 .promises-container .promise-title {
 	color: #f9000e;
 	font-size: 38px;
@@ -296,6 +302,7 @@ a:hover, a:visited, a:focus {
 }
 .footer {
 	color: #24458e;
+	background: #eee;
 	font-size: 59px;
 	height: 90px;
 	text-align: center;

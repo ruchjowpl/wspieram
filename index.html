@@ -1,4 +1,4 @@
-<?php session_start(); include 'config.php';?><!DOCTYPE html>
+
 <html>
 
 <head>
@@ -18,83 +18,10 @@
           type='text/css'>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-        ga('create', 'UA-62959990-1', 'auto');
-    </script>
 </head>
 
 <body>
 
-<?php if (isset($_GET['status']) && $_GET['status'] == 'success' && !isset($_SESSION['trans_id']) && isValidReferer()) : ?>
-    <script>
-
-        <?php
-        $cookie = isset($_COOKIE['paymentOption']) ? intval($_COOKIE['paymentOption']) : '';
-        $_SESSION['trans_id'] = intval(uniqid(time()));
-        ?>
-
-        <?php if(!empty($cookie)) : ?>
-
-        ga('require', 'ecommerce');
-            <?php if($cookie == 1) : ?>
-
-            ga('ecommerce:addTransaction', {
-                'id': '<?php echo $_SESSION['trans_id'];?>',
-                'affiliation': 'RUCH JOW',
-                'revenue': '20',
-                'currency': 'PLN'  // local currency code.
-            });
-            ga('ecommerce:addItem', {
-                'id': '<?php echo $_SESSION['trans_id'];?>',
-                'name': 'produkt20',
-                'sku': 'P1',
-                'price': '20',
-                'quantity': '1',
-                'currency': 'PLN' // local currency code.
-            });
-
-            <?php elseif($cookie == 2) : ?>
-            ga('ecommerce:addTransaction', {
-                'id': '<?php echo $_SESSION['trans_id'];?>',
-                'affiliation': 'RUCH JOW',
-                'revenue': '50',
-                'currency': 'PLN'  // local currency code.
-            });
-            ga('ecommerce:addItem', {
-                'id': '<?php echo $_SESSION['trans_id'];?>',
-                'name': 'produkt50',
-                'sku': 'P2',
-                'price': '50',
-                'quantity': '1',
-                'currency': 'PLN' // local currency code.
-            });
-            <?php else : ?>
-
-            ga('ecommerce:addTransaction', {
-                'id': '<?php echo $_SESSION['trans_id'];?>',
-                'affiliation': 'RUCH JOW',
-                'revenue': '300',
-                'currency': 'PLN'  // local currency code.
-            });
-            ga('ecommerce:addItem', {
-                'id': '<?php echo $_SESSION['trans_id'];?>',
-                'name': 'produktInne',
-                'sku': 'P3',
-                'price': 300,
-                'quantity': '1',
-                'currency': 'PLN' // local currency code.
-            });
-
-            <?php endif;?>
-        <?php endif;?>
-
-        ga('ecommerce:send');
-    </script>
-<?php endif; ?>
 
 <div class="container-fluid">
     <div class="row slider-container">
@@ -147,12 +74,12 @@
             </ol>
         </div>
     </div>
-    
+	
     <div class="row">
         <div class="container">
             <p class="text-center">lub wpłać bezpośrednio na konto dowolną kwotę:<br/> Pekao SA nr konta: 81 1240 6768 1111 0010 5970 1904 <br/>
-             z dopiskiem "Wsparcie Ruchu JOW"
-            </p>
+			 z dopiskiem "Wsparcie Ruchu JOW"
+			</p>
         </div>
     </div>
 
@@ -218,7 +145,7 @@
                                 </div>
               </div>
                </div>
-    
+	
     <div class="row footer">
         Zebraliśmy już: <strong><?php echo $current; ?></strong>
     </div>

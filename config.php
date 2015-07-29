@@ -1,6 +1,6 @@
 <?php
 
-$current = '175 tys.';
+$current = '185 tys. zł';
 
 function isValidReferer(){
     if(!isset($_SERVER['HTTP_REFERER']) || empty($_SERVER['HTTP_REFERER'])){
