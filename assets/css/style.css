@@ -63,6 +63,7 @@ a:hover, a:visited, a:focus {
 	background-size: cover;
 	min-height: 70vh
 }
+
 .slider-container .slider .slider-item img {
 	max-width: 100%
 }
