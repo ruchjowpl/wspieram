@@ -60,7 +60,7 @@ a:hover, a:visited, a:focus {
 .slider-container .slider .slider-item {
 	border-bottom: 2px solid #f9000e;
 	background: url(../img/slider.png) top center no-repeat;
-	background-size: cover;
+	background-size: 100% 100%;
 	min-height: 70vh
 }
 
