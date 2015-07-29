@@ -83,7 +83,7 @@
             <?php endif; ?>
             <div class="container-fluid">
                 <div class="row slider-container">
-                    <div class="slider-content" style="margin-top : 10px; padding-top : 10px">
+                    <div class="slider-content" style="margin-top : 5px; padding-top : 5px">
                         <div class="row">
                         <div class="container">
                             <div class="col-md-4 col-sm-5">
