@@ -87,7 +87,7 @@
                         <div class="row">
                         <div class="container">
                             <div class="col-md-4 col-sm-5">
-                                <a href="#0" class="logo">
+                                <a href="https://ruchjow.pl" class="logo">
                                     <img src="assets/img/ruchjow-pl-logo.png" alt=""/>
                                 </a>
                             </div>
@@ -95,7 +95,7 @@
                             </div>
                             <div class="col-md-3 col-sm-6">
                                 
-                                <a href="#0" class="logo">
+                                <a href="http://referendum15.pl" class="logo">
                                     <img src="assets/img/referendum_logo.png" alt=""/>
                                 </a>
                             </div>
@@ -190,7 +190,7 @@
                                 <li>Dowiesz się kim jesteśmy i o co walczymy</li>
                             </ul>
                             <br>
-                            <p style="text-align:center"> <a class="btn-lg btn-primary"  style="padding: 25px" href="/res/przewodnik-jow.pdf" target="_blank" >Pobierz przewodnik</a> </p>
+                            <p style="text-align:center"> <a class="btn-lg btn-primary"  style="padding: 25px" href="https://ruchjow.pl/res/przewodnik-jow.pdf" target="_blank" >Pobierz przewodnik</a> </p>
                         </div>
                     </div>
                 </div>
