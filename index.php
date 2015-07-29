@@ -86,14 +86,14 @@
                     <div class="slider-content" style="margin-top : 10px; padding-top : 10px">
                         <div class="row">
                         <div class="container">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-sm-5">
                                 <a href="#0" class="logo">
                                     <img src="assets/img/ruchjow-pl-logo.png" alt=""/>
                                 </a>
                             </div>
-                            <div class="col-md-5">
+                            <div class="col-md-5 col-sm-1">
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 col-sm-6">
                                 
                                 <a href="#0" class="logo">
                                     <img src="assets/img/referendum_logo.png" alt=""/>
