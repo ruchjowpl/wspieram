@@ -99,21 +99,24 @@
 <div class="container-fluid">
     <div class="row slider-container">
 
-        <div class="slider-content">
-            <div class="container">
-                <a href="#0" class="logo">
-                    <img src="assets/img/logo.png" alt=""/>
-                </a>
+            <div class="slider-content">
+                <div class="container">
+                    <a href="#0" class="logo">
+                        <img src="assets/img/logo.png" alt=""/>
+                    </a>
+                </div>
             </div>
-        </div>
 
         <ul class="slider">
             <li class="slider-item">
                 <div class="slider-content">
                     <div class="container">
+                           <p class="slide-text"><span>Wszyscy chcemy zmiany</span>
+                        </p>
                         <span class="slide-title">
-                            Popierasz działania<br/>na rzecz JOW?
+                            Tak dla <span style="color:#1A3165"> JOW </span>
                         </span>
+
 
                         <p class="slide-text"><span>Pomóż nam finansowo – nie otrzymujemy żadnego innego wsparcia.<br/>Cokolwiek wydamy, wcześniej musimy zebrać.</span>
                         </p>
