@@ -82,7 +82,7 @@
             </script>
             <?php endif; ?>
       
-  <div class="container-fluid">
+ <div class="container-fluid">
                 <div class="row slider-container">
                     <div class="slider-content" style="margin-top : 5px; padding-top : 5px">
                         <div class="row">
@@ -92,11 +92,11 @@
                                     <img src="assets/img/ruchjow-pl-logo.png" alt=""/>
                                 </a>
                             </div>
- -->                            <div class="col-md-9 col-sm-9 col-xs-9">
-                            </div>
-                            <div class="col-md-3 col-sm-3 col-xs-3">
+ -->                      <!--       <div class="col-md-9 col-sm-9 col-xs-9">
+                            </div> -->
+                            <div class="col-md-3 col-sm-4 col-xs-4 pull-right">
                                 
-                                <a href="http://referendum15.pl" class="logo">
+                                <a href="http://referendum15.pl" class="logo" style="float: right">
                                     <img src="assets/img/referendum_logo.png" alt=""/>
                                 </a>
                             </div>
@@ -199,7 +199,7 @@
                 </div>
                 
                 <div class="row footer">
-                    Zebraliśmy już: <strong><?php echo $current; ?></strong>
+                    Zebraliśmy już: <strong><?php echo $current; ?> 185 tys. zł</strong>
                 </div>
                 <div class="row">
                 <div class="container">
