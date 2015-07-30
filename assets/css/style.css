@@ -29,6 +29,7 @@ a:hover, a:visited, a:focus {
 @media(max-width:768px) {
 	.logo img {
 		width: 40%
+		display:none;
 	}
 }
 
