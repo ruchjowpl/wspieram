@@ -209,7 +209,7 @@
                                 </a>                        
                     </div>
                     <div class="col-sm-12 col-lg-10 col-xs-12">
-                    <p class="text-center" style="padding-top:25px; font-size:18px">
+                    <p class="text-left" style="padding-top:25px; font-size:18px">
                         Organizatorem akcji jest fundacja "Jednomandatowe Okręgi Wyborcze" im. prof. Jerzego Przystawy. Fundacja stanowi część szerszego  Ruchu Obywatelskiego na rzecz Jednomandatowych Okręgów Wyborczych.
                         Celem działania fundacji jest wspieranie różnych inicjatyw dążących do wprowadzenia JOW w wyborach do Sejmu RP oraz ochrona i promocja dorobku śp. prof. Jerzego Przystawy. Więcej na temat fundacji można zleleźć na stronie internetowej <a href="http://fundacja.jow.pl">fundacja.jow.pl</a>
                     </p>
