@@ -91,9 +91,9 @@
                                     <img src="assets/img/ruchjow-pl-logo.png" alt=""/>
                                 </a>
                             </div>
- -->                            <div class="col-md-9 col-sm-1">
+ -->                            <div class="col-md-10 col-sm-8">
                             </div>
-                            <div class="col-md-3 col-sm-11">
+                            <div class="col-md-2 col-sm-4">
                                 
                                 <a href="http://referendum15.pl" class="logo">
                                     <img src="assets/img/referendum_logo.png" alt=""/>
