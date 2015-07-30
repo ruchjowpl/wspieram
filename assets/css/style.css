@@ -326,16 +326,38 @@ a:hover, a:visited, a:focus {
 	color: #24458e;
 	background: #eee;
 	font-size: 59px;
-	height: 90px;
 	text-align: center;
 	line-height: 90px;
-	font-weight: 900
+	font-weight: 900;
+	padding: 80px 20px 100px 20px;
 }
+
+@media(max-width:768px) {
+	.footer {
+		font-size: 30px;
+		color: #24458e;
+		background: #eee;
+		text-align: center;
+		line-height: 90px;
+		font-weight: 900;
+		padding: 50px 10px 50px 10px;
+	}
+}
+
 .footer strong {
 	font-weight: 900;
 	color: #f9000e;
 	font-size: 86px
 }
+
+@media(max-width:768px) {
+.footer strong {
+	font-weight: 900;
+	color: #f9000e;
+	font-size: 36px
+}
+}
+
 .googleadservices {
 	width: 1px;
 	height: 1px;
