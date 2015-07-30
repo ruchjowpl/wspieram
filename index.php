@@ -82,7 +82,7 @@
             </script>
             <?php endif; ?>
       
- <div class="container-fluid">
+  <div class="container-fluid">
                 <div class="row slider-container">
                     <div class="slider-content" style="margin-top : 5px; padding-top : 5px">
                         <div class="row">
@@ -92,9 +92,9 @@
                                     <img src="assets/img/ruchjow-pl-logo.png" alt=""/>
                                 </a>
                             </div>
- -->                            <div class="col-md-9 col-sm-8 col-xs-8">
+ -->                            <div class="col-md-9 col-sm-9 col-xs-9">
                             </div>
-                            <div class="col-md-3 col-sm-4 col-xs-4">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
                                 
                                 <a href="http://referendum15.pl" class="logo">
                                     <img src="assets/img/referendum_logo.png" alt=""/>
@@ -116,17 +116,9 @@
             </div>
             <div class="row">
                 <div class="container">
-                 <div class="row">
-                    <div class="col-sm-12 col-lg-2 col-xs-12">
-                        <a href="https://ruchjow.pl" class="logo" >
-                                    <img src="assets/img/ruchjow-pl-logo.png" alt=""/>
-                                </a>                        
-                    </div>
-                    <div class="col-sm-12 col-lg-10 col-xs-12">
                     <p class="text-center">Pomóż nam finansowo w kampanii referendalnej - całą prowadzimy wyłącznie dzięki darowiznom Polaków. Partie polityczne mogą liczyć na finansowanie z budżetu. My możemy liczyć na siebie nawzajem.</p>
-                    </div>
-                    </div>
-                    <div>
+            
+   
                         <ol class="payments-container">
                             <li class="col-sm-4 col-lg-4 payment-item">
                                 <a href="https://secure.transferuj.pl/?h=279260c2f60dbe0ad9a6e7d8930fa9172f59aba0"
@@ -209,6 +201,22 @@
                 <div class="row footer">
                     Zebraliśmy już: <strong><?php echo $current; ?></strong>
                 </div>
+                <div class="row">
+                <div class="container">
+                           <div class="col-sm-12 col-lg-2 col-xs-12">
+                        <a href="https://ruchjow.pl" class="logo" >
+                                    <img src="assets/img/ruchjow-pl-logo.png" style="padding-top:40px" alt=""/>
+                                </a>                        
+                    </div>
+                    <div class="col-sm-12 col-lg-10 col-xs-12">
+                    <p class="text-center" style="padding-top:25px; font-size:18px">
+                        Organizatorem akcji jest fundacja "Jednomandatowe Okręgi Wyborcze" im. prof. Jerzego Przystawy. Fundacja stanowi część szerszego  Ruchu Obywatelskiego na rzecz Jednomandatowych Okręgów Wyborczych.
+                        Celem działania fundacji jest wspieranie różnych inicjatyw dążących do wprowadzenia JOW w wyborach do Sejmu RP oraz ochrona i promocja dorobku śp. prof. Jerzego Przystawy. Więcej na temat fundacji można zleleźć na stronie internetowej <a href="http://fundacja.jow.pl">fundacja.jow.pl</a>
+                    </p>
+                    </div>
+                    </div>
+                    </div>
+
             </div>
             <script type="text/javascript" src="assets/vendor/jquery.js"></script>
             <script type="text/javascript" src="assets/vendor/bootstrap/js/bootstrap.min.js"></script>
