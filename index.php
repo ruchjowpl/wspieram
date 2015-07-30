@@ -84,7 +84,7 @@
       
  <div class="container-fluid">
                 <div class="row slider-container">
-                    <div class="slider-content" style="margin-top : 5px; padding-top : 5px">
+                         <div class="slider-content" style="margin-top : 5px; padding-top : 5px">
                         <div class="row">
                         <div class="container">
 <!--                             <div class="col-md-4 col-sm-5">
@@ -94,7 +94,7 @@
                             </div>
  -->                      <!--       <div class="col-md-9 col-sm-9 col-xs-9">
                             </div> -->
-                            <div class="col-md-3 pull-right">
+                            <div class="col-md-3 col-sm-3 col-xs-3 pull-right">
                                 
                                 <a href="http://referendum15.pl" class="logo" >
                                     <img src="assets/img/referendum_logo.png" class="img-responsive" alt=""/>
