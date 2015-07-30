@@ -94,7 +94,7 @@
                             </div>
  -->                      <!--       <div class="col-md-9 col-sm-9 col-xs-9">
                             </div> -->
-                            <div class="col-md-3 col-sm-4 col-xs-4 pull-right">
+                            <div class="col-md-3 pull-right">
                                 
                                 <a href="http://referendum15.pl" class="logo" >
                                     <img src="assets/img/referendum_logo.png" class="img-responsive" alt=""/>
