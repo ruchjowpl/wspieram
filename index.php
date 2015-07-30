@@ -81,10 +81,11 @@
             ga('ecommerce:send');
             </script>
             <?php endif; ?>
-       <div class="container-fluid">
+   
+ <div class="container-fluid">
                 <div class="row banner">
                                     <div class="col-md-3 col-sm-3 col-xs-3 pull-right" style="padding-top:5px" >                                
-                                <a href="http://referendum15.pl" >
+                                <a href="http://referendum15.pl" target="_blank">
                                     <img src="assets/img/referendum_logo.png" class="img-responsive" alt="referendum15.pl"/>
                                 </a>
                             </div>
@@ -95,7 +96,7 @@
 
             <div class="row">
                 <div class="container">
-                    <p class="text-center">Pomóż nam finansowo w kampanii referendalnej - całą prowadzimy wyłącznie dzięki darowiznom Polaków. Partie polityczne mogą liczyć na finansowanie z budżetu. My możemy liczyć na siebie nawzajem.</p>
+                    <p class="text-center">Pomóż nam finansowo w kampanii referendalnej - całą prowadzimy wyłącznie dzięki darowiznom Polaków. Partie polityczne mogą liczyć na finansowanie z budżetu. <br> My możemy liczyć na siebie nawzajem.</p>
             
    
                         <ol class="payments-container">
@@ -124,7 +125,7 @@
                 <div class="row">
                     <div class="container">
                         <p class="text-center">lub wpłać bezpośrednio na konto fundacji "Jednomandatowe Okręgi Wyborcze" im. prof. Jerzego Przystawy dowolną kwotę:<br/> Pekao SA nr konta: 81 1240 6768 1111 0010 5970 1904 <br/>
-                            z dopiskiem "Wsparcie Ruchu JOW"
+                            z dopiskiem "Wsparcie kampanii referendalnej"
                         </p>
                     </div>
                 </div>
@@ -183,14 +184,14 @@
                 <div class="row">
                 <div class="container">
                            <div class="col-sm-12 col-lg-2 col-xs-12">
-                        <a href="https://ruchjow.pl" class="logo" >
+                        <a href="https://ruchjow.pl" class="logo" target="_blank">
                                     <img src="assets/img/ruchjow-pl-logo.png" style="padding-top:40px" alt=""/>
                                 </a>                        
                     </div>
                     <div class="col-sm-12 col-lg-10 col-xs-12">
-                    <p class="text-left" style="padding-top:25px; font-size:18px">
+                    <p class="text-left" style="padding-top:25px; font-size:18px; line-height: 28px">
                         Organizatorem akcji jest fundacja "Jednomandatowe Okręgi Wyborcze" im. prof. Jerzego Przystawy. Fundacja stanowi część szerszego  Ruchu Obywatelskiego na rzecz Jednomandatowych Okręgów Wyborczych.
-                        Celem działania fundacji jest wspieranie różnych inicjatyw dążących do wprowadzenia JOW w wyborach do Sejmu RP oraz ochrona i promocja dorobku śp. prof. Jerzego Przystawy. Więcej na temat fundacji można zleleźć na stronie internetowej <a href="http://fundacja.jow.pl">fundacja.jow.pl</a>
+                        Celem działania fundacji jest wspieranie różnych inicjatyw dążących do wprowadzenia JOW w wyborach do Sejmu RP oraz ochrona i promocja dorobku śp. prof. Jerzego Przystawy. Więcej na temat fundacji można zleleźć na stronie internetowej <a target="_blank" href="http://fundacja.jow.pl">fundacja.jow.pl</a>
                     </p>
                     </div>
                     </div>
