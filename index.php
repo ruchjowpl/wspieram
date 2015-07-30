@@ -81,7 +81,8 @@
             ga('ecommerce:send');
             </script>
             <?php endif; ?>
-         <div class="container-fluid">
+      
+ <div class="container-fluid">
                 <div class="row slider-container">
                     <div class="slider-content" style="margin-top : 5px; padding-top : 5px">
                         <div class="row">
@@ -151,7 +152,7 @@
                 
                 <div class="row">
                     <div class="container">
-                        <p class="text-center">lub wpłać bezpośrednio na konto dowolną kwotę:<br/> Pekao SA nr konta: 81 1240 6768 1111 0010 5970 1904 <br/>
+                        <p class="text-center">lub wpłać bezpośrednio na konto fundacji "Jednomandatowe Okręgi Wyborcze" im. prof. Jerzego Przystawy dowolną kwotę:<br/> Pekao SA nr konta: 81 1240 6768 1111 0010 5970 1904 <br/>
                             z dopiskiem "Wsparcie Ruchu JOW"
                         </p>
                     </div>
