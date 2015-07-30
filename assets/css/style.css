@@ -8,8 +8,8 @@ body {
 }
 @media(max-height:705px) and (min-height:653px) {
 	body {
-		font-size: 23px;
-		line-height: 30px
+		font-size: 18px;
+		line-height: 23px
 	}
 }
 a:hover, a:visited, a:focus {
