@@ -81,7 +81,7 @@
             ga('ecommerce:send');
             </script>
             <?php endif; ?>
-            <div class="container-fluid">
+           <div class="container-fluid">
                 <div class="row slider-container">
                     <div class="slider-content" style="margin-top : 5px; padding-top : 5px">
                         <div class="row">
@@ -91,9 +91,9 @@
                                     <img src="assets/img/ruchjow-pl-logo.png" alt=""/>
                                 </a>
                             </div>
- -->                            <div class="col-md-10 col-sm-8">
+ -->                            <div class="col-md-9 col-sm-8 col-xs-8">
                             </div>
-                            <div class="col-md-2 col-sm-4">
+                            <div class="col-md-3 col-sm-4 col-xs-4">
                                 
                                 <a href="http://referendum15.pl" class="logo">
                                     <img src="assets/img/referendum_logo.png" alt=""/>
