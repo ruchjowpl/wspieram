@@ -81,7 +81,7 @@
             ga('ecommerce:send');
             </script>
             <?php endif; ?>
-           <div class="container-fluid">
+         <div class="container-fluid">
                 <div class="row slider-container">
                     <div class="slider-content" style="margin-top : 5px; padding-top : 5px">
                         <div class="row">
@@ -115,22 +115,32 @@
             </div>
             <div class="row">
                 <div class="container">
-                    <p class="text-center">Pomóż nam finansowo w kampanii referendalnej - całą prowadzimy wyłącznie dzięki darowiznom Polaków. Partie polityczne mogą liczyć na finansowanie z budżetu.<br> My możemy liczyć na siebie nawzajem.<p>
+                 <div class="row">
+                    <div class="col-sm-12 col-lg-2 col-xs-12">
+                        <a href="https://ruchjow.pl" class="logo" >
+                                    <img src="assets/img/ruchjow-pl-logo.png" alt=""/>
+                                </a>                        
+                    </div>
+                    <div class="col-sm-12 col-lg-10 col-xs-12">
+                    <p class="text-center">Pomóż nam finansowo w kampanii referendalnej - całą prowadzimy wyłącznie dzięki darowiznom Polaków. Partie polityczne mogą liczyć na finansowanie z budżetu. My możemy liczyć na siebie nawzajem.</p>
+                    </div>
+                    </div>
+                    <div>
                         <ol class="payments-container">
                             <li class="col-sm-4 col-lg-4 payment-item">
-                                <a href="https://secure.transferuj.pl/?h=83e6087807b599a4390a7532fed7e02e6ac4a08b"
+                                <a href="https://secure.transferuj.pl/?h=279260c2f60dbe0ad9a6e7d8930fa9172f59aba0"
                                     class="red">
                                     wpłać <strong><big>20</big> PLN</strong>
                                 </a>
                             </li>
                             <li class="col-sm-4 col-lg-4 payment-item">
-                                <a href="https://secure.transferuj.pl/?h=db3d08b333d8f5b40520026a811d25085b86c65a"
+                                <a href="https://secure.transferuj.pl/?h=e9f1026ac013b5aa7797f08a4449ced120bdd3e9"
                                     class="red">
                                     wpłać <strong><big>50</big> PLN</strong>
                                 </a>
                             </li>
                             <li class="col-sm-4 col-lg-4 payment-item">
-                                <a href="https://secure.transferuj.pl/?id=15885&opis=Wsparcie%20Ruchu%20JOW&crc=LP&pow_url=http%3A%2F%2Fwspieram.ruchjow.pl%2F%3Fstatus%3Dsuccess&pow_url_blad=http%3A%2F%2Fwspieram.ruchjow.pl%2F%3Fstatus%3Dfailure&md5sum=d60137919cb8fd535bdd469b1b8ceb6c"
+                                <a href="https://secure.transferuj.pl/?id=15885&opis=Wsparcie%20dzia%C5%82a%C5%84%20statutowych%20fundacji%20%22Jednomandatowe%20Okr%C4%99gi%20Wyborcze%22%20im.%20prof.%20Jerzego%20Przystawy&crc=Landing%20Page&pow_url=http%3A%2F%2Fwspieram.ruchjow.pl%2F%3Fstatus%3Dsuccess&pow_url_blad=http%3A%2F%2Fwspieram.ruchjow.pl%2F%3Fstatus%3Dfailure&md5sum=31e4fa8007bf1a44bbae82fd9804d8ae"
                                     class="custom-amount blue ">
                                     wpłać<br/><strong>inną kwotę</strong>
                                 </a>
