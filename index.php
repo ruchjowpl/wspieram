@@ -113,7 +113,7 @@
                                 </a>
                             </li>
                             <li class="col-sm-4 col-lg-4 payment-item">
-                                <a href="https://secure.transferuj.pl/?h=a5ef024b7d945ccf95c26d8de08ac4f79a2cf52c"
+                                <a href="https://secure.transferuj.pl/?id=15885&opis=Wsparcie%20kampanii%20referendalnej&crc=Landing%20Page&md5sum=31e4fa8007bf1a44bbae82fd9804d8ae"
                                     class="custom-amount blue ">
                                     wpłać<br/><strong>inną kwotę</strong>
                                 </a>
