@@ -101,19 +101,19 @@
    
                         <ol class="payments-container">
                             <li class="col-sm-4 col-lg-4 payment-item">
-                                <a href="https://secure.transferuj.pl/?h=279260c2f60dbe0ad9a6e7d8930fa9172f59aba0"
+                                <a href="https://secure.transferuj.pl/?h=65bebab671c5ebbd4031053c53a7c1db4521bab0"
                                     class="red">
                                     wpłać <strong><big>20</big> PLN</strong>
                                 </a>
                             </li>
                             <li class="col-sm-4 col-lg-4 payment-item">
-                                <a href="https://secure.transferuj.pl/?h=e9f1026ac013b5aa7797f08a4449ced120bdd3e9"
+                                <a href="https://secure.transferuj.pl/?h=a5ef024b7d945ccf95c26d8de08ac4f79a2cf52c"
                                     class="red">
                                     wpłać <strong><big>50</big> PLN</strong>
                                 </a>
                             </li>
                             <li class="col-sm-4 col-lg-4 payment-item">
-                                <a href="https://secure.transferuj.pl/?id=15885&opis=Wsparcie%20dzia%C5%82a%C5%84%20statutowych%20fundacji%20%22Jednomandatowe%20Okr%C4%99gi%20Wyborcze%22%20im.%20prof.%20Jerzego%20Przystawy&crc=Landing%20Page&pow_url=http%3A%2F%2Fwspieram.ruchjow.pl%2F%3Fstatus%3Dsuccess&pow_url_blad=http%3A%2F%2Fwspieram.ruchjow.pl%2F%3Fstatus%3Dfailure&md5sum=31e4fa8007bf1a44bbae82fd9804d8ae"
+                                <a href="https://secure.transferuj.pl/?h=a5ef024b7d945ccf95c26d8de08ac4f79a2cf52c"
                                     class="custom-amount blue ">
                                     wpłać<br/><strong>inną kwotę</strong>
                                 </a>
