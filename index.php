@@ -133,6 +133,11 @@
                     <div class="container">
                         <h2 class="promise-title">Aby dokonać zmiany każdego dnia:</h2>
                         <ol class="promises-list clearfix">
+                            <li class="col-sm-2 col-md-2 promise-item">
+                                <img class="promise-img" src="assets/img/promises/promise4.png" alt=""/>
+                                <p class="promise-text">Produkujemy spoty filmowe i radiowe</p>
+                            </li>
+                       
                             <li class="col-sm-offset-1 col-md-offset-1 col-sm-2 col-md-2 promise-item">
                                 <img class="promise-img" src="assets/img/promises/promise1.png" alt=""/>
                                 <p class="promise-text">Organizujemy działania edukacyjne – seminaria, szkolenia, konferencje</p>
@@ -144,10 +149,6 @@
                             <li class="col-sm-2 col-md-2 promise-item">
                                 <img class="promise-img" src="assets/img/promises/promise3.png" alt=""/>
                                 <p class="promise-text">Drukujemy i kolportujemy materiały – Wysłaliśmy do was ich już ponad 1 mln.</p>
-                            </li>
-                            <li class="col-sm-2 col-md-2 promise-item">
-                                <img class="promise-img" src="assets/img/promises/promise4.png" alt=""/>
-                                <p class="promise-text">Produkujemy spoty filmowe i radiowe</p>
                             </li>
                             <li class="col-sm-2 col-md-2 promise-item">
                                 <img class="promise-img" src="assets/img/promises/promise5.png" alt=""/>
