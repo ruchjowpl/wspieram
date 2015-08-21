@@ -74,7 +74,7 @@ a:hover, a:visited, a:focus {
 	border-bottom: 2px solid #f9000e;
 	background: url(../img/slider4.jpg) no-repeat;
 	background-size: 100%;
-	min-height: 70vh
+	min-height: 50vh
 }
 
 @media(max-width:1000px) {
