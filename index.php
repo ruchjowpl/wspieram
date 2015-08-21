@@ -96,12 +96,9 @@
 
             <div class="row">
                 <div class="container">
-                    <p class="text-center">Dziękujemy Wam za wsparcie! Dzięki niemu właśnie wyprodukowaliśmy spoty telewizyjne i radiowe. Nasze działania finansujemy wyłącznie z dobrowolnych darowizn. Dzisiaj bezpośrednio od nas zależy, do jak szerokiego grona Polaków nasze spoty dotrą. Zbieramy na intensywną kampanię w internecie, każde 50 zł pozwoli nam zaprezentować naszą produkcję 500 osobom! Dołącz do zbiórki, pokażmy nasze spoty całej Polsce!
-
-                    <p class="text-center">Pomóż nam finansowo w kampanii referendalnej. Zbieramy na produkcję i promocję spotów referendalnych. Partie polityczne mogą liczyć na finansowanie z budżetu. <br> My możemy liczyć na siebie nawzajem.</p>
+                    <p class="text-center">Dziękujemy Wam za wsparcie! Dzięki niemu właśnie wyprodukowaliśmy spoty telewizyjne i radiowe. Nasze działania finansujemy wyłącznie z dobrowolnych darowizn. Dzisiaj bezpośrednio od nas zależy, do jak szerokiego grona Polaków nasze spoty dotrą. Zbieramy na intensywną kampanię w internecie, każde 50 zł pozwoli nam zaprezentować naszą produkcję 500 osobom! Dołącz do zbiórki, pokażmy nasze spoty całej Polsce!</p>
 
             
-   
                         <ol class="payments-container">
                             <li class="col-sm-4 col-lg-4 payment-item">
                                 <a href="https://secure.transferuj.pl/?h=65bebab671c5ebbd4031053c53a7c1db4521bab0"
