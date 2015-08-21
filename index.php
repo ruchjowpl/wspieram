@@ -1,4 +1,4 @@
-<?php session_start(); include 'config.php';?><!DOCTYPE html>
+﻿<?php session_start(); include 'config.php';?><!DOCTYPE html>
 <html>
     <head>
         <title>POPIERASZ DZIAŁANIA NA RZECZ JOW?</title>
@@ -96,7 +96,7 @@
 
             <div class="row">
                 <div class="container">
-                    <p class="text-center">Pomóż nam finansowo w kampanii referendalnej - całą prowadzimy wyłącznie dzięki darowiznom Polaków. Partie polityczne mogą liczyć na finansowanie z budżetu. <br> My możemy liczyć na siebie nawzajem.</p>
+                    <p class="text-center">Dziękujemy Wam za wsparcie! Dzięki niemu właśnie wyprodukowaliśmy spoty telewizyjne i radiowe. Nasze działania finansujemy wyłącznie z dobrowolnych darowizn. Dzisiaj bezpośrednio od nas zależy, do jak szerokiego grona Polaków nasze spoty dotrą. Zbieramy na intensywną kampanię w internecie, każde 50 zł pozwoli nam zaprezentować naszą produkcję 500 osobom! Dołącz do zbiórki, pokażmy nasze spoty całej Polsce!
             
    
                         <ol class="payments-container">
